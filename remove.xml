@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remove packages -->
+  <remove-project name="AICP/packages_apps_AICP_OTA" />
+  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
+  <remove-project name="CyanogenMod/android_packages_apps_Calendar" />
+  <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
+  <remove-project name="CyanogenMod/android_packages_apps_Gello" />
+  <remove-project name="CyanogenMod/android_packages_themes_HexoLibre"/>
+</manifest>
