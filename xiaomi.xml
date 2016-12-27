@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- gemini -->
+  <project name="mordiford/device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="n7.1" />
+  <project name="mordiford/nanami-mi5-kernel" path="kernel/xiaomi/nanami" remote="github" revision="nanami-v3-new" />
+</manifest>
+
