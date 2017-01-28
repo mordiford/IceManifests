@@ -24,4 +24,7 @@
   <remove-project name="AICP/packages_apps_AicpExtras"/>
   <project path="packages/apps/AicpExtras" name="mordiford/packages_apps_AicpExtras" revision="n7.1" />
 
+  <remove-project name="AICP/packages_apps_OmniSwitch"/>
+  <project path="packages/apps/OmniSwitch" name="mordiford/packages_apps_OmniSwitch" revision="n7.1" />
+
 </manifest>
