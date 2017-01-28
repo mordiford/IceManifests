@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- apollo -->
+  <project name="mordiford/device_amazon_apollo" path="device/amazon/apollo" revision="n7.1" />
+  <project name="mordiford/device_amazon_hdx-common" path="device/amazon/hdx-common" revision="n7.1" />
+  <project name="LineageOS/android_kernel_amazon_hdx-common" path="kernel/amazon/hdx-common" revision="cm-14.1" />
+</manifest>
+
