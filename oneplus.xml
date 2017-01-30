@@ -11,4 +11,3 @@
   <!-- common -->
   <project name="mordiford/device_oppo_common" path="device/oppo/common" remote="github" revision="n7.1" />
 </manifest>
-

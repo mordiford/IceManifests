@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- z2 -->
-  <project name="mordiford/device_zuk_z2" path="device/zuk/z2" remote="github" revision="n7.1-rebase" />
-  <project name="18712886438/android_kernel_zuk_z2_plus" path="kernel/zuk/msm8996" remote="github" revision="cm-14.1" />
+  <project name="mordiford/device_zuk_z2_plus" path="device/zuk/z2_plus" remote="github" revision="n7.1" />
+  <project name="davidevinavil/android_kernel_zuk_z2_plus" path="kernel/zuk/msm8996" remote="github" revision="cm-14.1" />
 </manifest>
-
