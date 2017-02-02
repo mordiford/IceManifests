@@ -2,7 +2,7 @@
 <manifest>
   <!-- oneplus3 -->
   <project name="mordiford/device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" revision="n7.1" />
-  <project name="mordiford/kazari-op3-kernel" path="kernel/oneplus/kazari" remote="github" revision="kazari-v3" />
+  <project name="mordiford/kazari-op3-kernel" path="kernel/oneplus/kazari" remote="github" revision="kazari-v4" />
 
   <!-- oneplus2 -->
   <project name="mordiford/device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="github" revision="n7.1" />
