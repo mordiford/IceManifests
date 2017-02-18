@@ -8,6 +8,9 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" groups="pdk,linux,arm" remote="bucket" />
 
   <!-- mordiford-ify patch -->
+  <remove-project name="AICP/build"/>
+  <project path="build" name="mordiford/build" revision="n7.1" />
+
   <remove-project name="AICP/vendor_aicp"/>
   <project path="vendor/aicp" name="mordiford/vendor_aicp" revision="n7.1" />
 
