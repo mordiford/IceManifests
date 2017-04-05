@@ -21,9 +21,6 @@
   <remove-project name="AICP/packages_apps_Settings"/>
   <project path="packages/apps/Settings" name="mordiford/packages_apps_Settings" groups="pdk-fs" revision="n7.1" />
 
-  <remove-project name="AICP/packages_apps_CMParts"/>
-  <project path="packages/apps/CMParts" name="mordiford/packages_apps_CMParts" revision="n7.1" />
-
   <remove-project name="AICP/packages_apps_AicpExtras"/>
   <project path="packages/apps/AicpExtras" name="mordiford/packages_apps_AicpExtras" revision="n7.1" />
 
