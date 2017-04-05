@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <!-- nx512j -->
-  <project name="mordiford/device_nubia_nx512j" path="device/nubia/nx512j" remote="github" revision="n7.1" />
-  <project name="Bauuuuu/android_kernel_nubia_nx512j" path="kernel/nubia/nx512j" remote="github" revision="cm-14.1" />
-</manifest>
-
