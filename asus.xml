@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <!-- Z010D -->
-  <project name="mordiford/device_asus_Z010D" path="device/asus/Z010D" revision="n7.1" />
-  <project name="audahadi/android_device_asus_qcom_common" path="device/asus/msm8916-common" revision="cm-14.1" />
-  <project name="kernel-hut/android_kernel_asus_msm8916" path="kernel/asus/msm8916" revision="cm-14.1" />
-</manifest>
-
