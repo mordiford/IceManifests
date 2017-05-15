@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- UBERTC -->
-  <remote name="bucket"
-          fetch="https://bitbucket.org"
-          revision="master" />
-
-  <project name="DespairFactor/arm-eabi-5.x" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.4.1" remote="bucket" />
-  <project name="DespairFactor/arm-linux-androideabi-5.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4.1" remote="bucket" />
-
-  <!-- aarch64 UBERTC, -kernel is outdated -->
-  <project name="DespairFactor/aarch64-linux-android-5.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.4.1" remote="bucket" />
-  <project name="DespairFactor/aarch64-linux-android-5.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" remote="bucket" />
-
-  <!-- Snapdragon LLVM Compiler by UBERTC-->
-  <project name="DespairFactor/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bucket" />
-
   <!-- mordiford-ify patch -->
-  <remove-project name="LineageOS/android_bionic" />
-  <project path="bionic" name="mordiford/bionic" revision="n7.1" />
-
   <remove-project name="AICP/build"/>
   <project path="build" name="mordiford/build" revision="n7.1" />
 
