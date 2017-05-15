@@ -5,10 +5,9 @@
 
   <!-- remove Lineage repos -->
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
-  <remove-project name="LineageOS/android_packages_apps_Browser" />
   <remove-project name="LineageOS/android_packages_apps_Calendar" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
-  <remove-project name="LineageOS/android_packages_apps_Gello" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
   <remove-project name="LineageOS/android_packages_apps_TV" />
   <remove-project name="LineageOS/android_packages_services_Car" />
