@@ -2,10 +2,13 @@
 <manifest>
   <!-- msm8996 -->
   <project name="mordiford/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="n7.1" />
+  <project name="mordiford/nanami-mi5-kernel" path="kernel/xiaomi/msm8996" remote="github" revision="nanami-v5-dev" />
 
   <!-- gemini -->
   <project name="mordiford/device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="n7.1" />
-  <project name="mordiford/nanami-mi5-kernel" path="kernel/xiaomi/msm8996" remote="github" revision="nanami-v5-dev" />
+
+  <!-- capricorn -->
+  <project name="mordiford/device_xiaomi_capricorn" path="device/xiaomi/capricorn" remote="github" revision="n7.1" />
 
   <!-- helium -->
   <project name="mordiford/device_xiaomi_helium" path="device/xiaomi/helium" remote="github" revision="n7.1" />
