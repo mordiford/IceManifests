@@ -7,7 +7,6 @@
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <remove-project name="LineageOS/android_packages_apps_Calendar" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
-  <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
   <remove-project name="LineageOS/android_packages_apps_TV" />
   <remove-project name="LineageOS/android_packages_services_Car" />
