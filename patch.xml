@@ -20,4 +20,7 @@
   <remove-project name="AICP/packages_apps_OmniSwitch"/>
   <project path="packages/apps/OmniSwitch" name="mordiford/packages_apps_OmniSwitch" revision="n7.1" />
 
+  <remove-project name="LineageOS/android_packages_apps_Jelly"/>
+  <project path="packages/apps/Jelly" name="mordiford/packages_apps_Jelly" revision="cm-14.1" />
+
 </manifest>
