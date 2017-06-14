@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- x2 -->
+  <project name="mordiford/device_leeco_x2" path="device/leeco/x2" remote="github" revision="n7.1" />
+  <project name="LineageOS/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="cm-14.1" />
+</manifest>
