@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- himawhl -->
+  <project name="mordiford/device_htc_himawhl" path="device/htc/himawhl" remote="github" revision="n7.1" />
+  <project name="AICP/device_htc_hima-common" path="device/htc/hima-common" remote="github" revision="n7.1" />
+  <project name="LineageOS/android_kernel_htc_msm8994" path="kernel/htc/msm8994" remote="github" revision="cm-14.1" />
+
+  <!-- hiaewhl -->
+  <project name="mordiford/device_htc_hiaewhl" path="device/htc/hiaewhl" remote="github" revision="n7.1" />
+  <project name="LineageOS/android_device_htc_hiae-common" path="device/htc/hiae-common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_htc_msm8952" path="kernel/htc/msm8952" remote="github" revision="cm-14.1" />
+</manifest>
