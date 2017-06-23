@@ -4,7 +4,6 @@
   <remove-project name="AICP/packages_apps_AICP_OTA" />
 
   <!-- remove Lineage repos -->
-  <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <remove-project name="LineageOS/android_packages_apps_Calendar" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
