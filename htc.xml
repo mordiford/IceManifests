@@ -2,7 +2,7 @@
 <manifest>
   <!-- himawhl -->
   <project name="mordiford/device_htc_himawhl" path="device/htc/himawhl" remote="github" revision="n7.1" />
-  <project name="AICP/device_htc_hima-common" path="device/htc/hima-common" remote="github" revision="n7.1" />
+  <project name="mordiford/device_htc_hima-common" path="device/htc/hima-common" remote="github" revision="n7.1" />
   <project name="LineageOS/android_kernel_htc_msm8994" path="kernel/htc/msm8994" remote="github" revision="cm-14.1" />
 
   <!-- hiaewhl -->
