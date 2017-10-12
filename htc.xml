@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- msm8994 -->
+  <project name="mordiford/kernel_htc_msm8994" path="kernel/htc/msm8994" remote="github" revision="n7.1" />
+
+  <!-- b3uhl -->
+  <project name="mordiford/device_htc_b3uhl" path="device/htc/b3uhl" remote="github" revision="n7.1" />
+  <project name="scoty755/android_device_htc_b3-common" path="device/htc/b3-common" />
+
   <!-- himawhl -->
   <project name="mordiford/device_htc_himawhl" path="device/htc/himawhl" remote="github" revision="n7.1" />
   <project name="mordiford/device_htc_hima-common" path="device/htc/hima-common" remote="github" revision="n7.1" />
-  <project name="LineageOS/android_kernel_htc_msm8994" path="kernel/htc/msm8994" remote="github" revision="cm-14.1" />
 </manifest>
