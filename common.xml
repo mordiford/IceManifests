@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- common -->
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
+
+  <!-- OTA -->
+  <remove-project name="AICP/packages_apps_AICP_OTA" />
+  <project name="mordiford/packages_apps_SlimOTA" path="packages/apps/SlimOTA" revision="n7.1" />
+
+  <!-- msm8996-common -->
+  <project name="platform/hardware/qcom/msm8996" path="hardware/qcom/msm8996" remote="aosp" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" />
+</manifest>
