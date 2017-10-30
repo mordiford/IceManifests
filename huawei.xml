@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- vns -->
+  <project name="mordiford/device_huawei_vns" path="device/huawei/vns" remote="github" revision="n7.1" />
+  <project name="OpenKirin/android_kernel_huawei_vns" path="kernel/huawei/vns" remote="github" revision="7.x" />
+</manifest>

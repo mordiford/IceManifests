@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- patches for vns (P9 Lite) -->
+  <remove-project name="AICP/frameworks_native" />
+  <project path="frameworks/native" name="mordiford/frameworks_native" revision="n7.1" />
+
+  <remove-project name="LineageOS/android_system_bt" />
+  <project path="system/bt" name="mordiford/system_bt" revision="cm-14.1" />
+
   <!-- mordiford-ify patch -->
   <remove-project name="AICP/vendor_aicp"/>
   <project path="vendor/aicp" name="mordiford/vendor_aicp" revision="n7.1" />
