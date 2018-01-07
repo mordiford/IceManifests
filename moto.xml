@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- potter -->
+  <project name="mordiford/device_motorola_potter" path="device/motorola/potter" remote="github" revision="o8.1" />
+  <project name="mordiford/iris-g5p-kernel" path="kernel/motorola/msm8953" remote="github" revision="iris-v1" />
+  <project name="boulzordev/android_vendor_motorola_potter" path="vendor/motorola/potter" remote="github" revision="lineage-15.1-64" />
+</manifest>
