@@ -9,7 +9,7 @@
 
 ## AICP info
 
-- mordiford-AICP の概要とダウンロード: https://github.com/mordiford/IceManifests/wiki
+- mordiford-AICP の概要とダウンロード: https://wiki.maud.io/aicp/oreo
 
 ## License
 
