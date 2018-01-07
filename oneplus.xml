@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <!-- oneplus3 -->
-  <project name="mordiford/device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" revision="o8.0-los" />
-  <project name="mordiford/kazari-op3-kernel" path="kernel/oneplus/msm8996" remote="github" revision="kazari-v6-los" />
-  <project name="AICP/device_oppo_common" path="device/oppo/common" remote="github" revision="o8.0" />
-  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.0" />
-</manifest>

@@ -9,11 +9,10 @@
   <project name="mordiford/packages_apps_SlimOTA" path="packages/apps/SlimOTA" revision="n7.1" />
 
   <!-- msm8996-common -->
-  <project name="platform/hardware/qcom/msm8996" path="hardware/qcom/msm8996" remote="aosp" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" />
 
   <!-- additional -->
-  <project name="omnirom/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" revision="android-8.0" />
+  <project name="omnirom/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" revision="android-8.1" />
 </manifest>
