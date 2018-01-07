@@ -2,7 +2,6 @@
 
 > - [x] 読んだらこんな感じにチェック入れてね
 
-- [ ] [wiki/Issues](https://github.com/mordiford/IceManifests/wiki/Issues) に該当するものがないことを確認した
 - [ ] [既存のIssues](https://github.com/mordiford/IceManifests/issues) と重複しないことを確認した
 
 ### Device Info
