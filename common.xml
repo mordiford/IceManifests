@@ -2,7 +2,10 @@
 <manifest>
   <!-- common -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
+  <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" />
 
   <!-- OTA -->
   <remove-project name="AICP/packages_apps_AICP_OTA" />

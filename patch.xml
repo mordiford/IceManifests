@@ -6,4 +6,24 @@
 
   <remove-project name="AICP/packages_apps_AicpExtras"/>
   <project path="packages/apps/AicpExtras" name="mordiford/packages_apps_AicpExtras" revision="o8.1" />
+
+  <!-- oneplus3 patches -->
+  <remove-project name="AICP/frameworks_base" />
+  <project name="mordiford/frameworks_base" path="frameworks/base" remote="aicp" />
+
+  <remove-project name="AICP/packages_apps_Settings" />
+  <project name="mordiford/packages_apps_Settings" path="packages/apps/Settings" remote="aicp" />
+
+  <remove-project name="AICP/lineage-sdk" />
+  <project name="repopick/lineage-sdk" path="lineage-sdk" remote="aicp" />
+
+  <remove-project name="LineageOS/android_hardware_interfaces" />
+  <project path="hardware/interfaces" name="repopick/android_hardware_interfaces" />
+
+  <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
+  <project path="hardware/lineage/interfaces" name="repopick/android_hardware_lineage_interfaces" />
+
+  <remove-project name="LineageOS/android_hardware_qcom_power" />
+  <project path="hardware/qcom/power" name="repopick/android_hardware_qcom_power" />
+
 </manifest>
