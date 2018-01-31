@@ -9,7 +9,7 @@
 
   <!-- OTA -->
   <remove-project name="AICP/packages_apps_AICP_OTA" />
-  <project name="mordiford/packages_apps_SlimOTA" path="packages/apps/SlimOTA" revision="n7.1" />
+  <project name="mordiford/packages_apps_SlimOTA" path="packages/apps/SlimOTA" revision="o8.1" />
 
   <!-- msm8996-common -->
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" />
