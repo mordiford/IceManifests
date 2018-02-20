@@ -9,10 +9,4 @@
 
   <!-- capricorn -->
   <project name="mordiford/device_xiaomi_capricorn" path="device/xiaomi/capricorn" remote="github" revision="n7.1" />
-
-  <!-- helium -->
-  <project name="mordiford/device_xiaomi_helium" path="device/xiaomi/helium" remote="github" revision="n7.1" />
-  <project name="mordiford/device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="github" revision="n7.1" />
-  <project name="nijel8/android_kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="github" />
-
 </manifest>
