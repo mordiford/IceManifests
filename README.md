@@ -9,7 +9,7 @@
 ## AICP info
 
 - n7.1は公式ビルドが止まったので **https://github.com/IceLegacy/platform_manifest** を使ってください
-- AICP-N-12.1-mordiford の概要とダウンロード: https://github.com/mordiford/IceManifests/wiki
+- AICP-N-12.1-mordiford の概要とダウンロード: https://wiki.maud.io/aicp/nougat
 - 現在の対応機種と今後の対応予定の一覧: https://github.com/mordiford/IceManifests/projects/1
 
 ## License
