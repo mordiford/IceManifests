@@ -4,7 +4,7 @@
   <remove-project name="IceLegacy/vendor_aicp"/>
   <project path="vendor/aicp" name="mordiford/vendor_aicp" revision="n7.1" />
 
-  <remove-project name="IceLegacy/packages_apps_AicpExtras"/>
+  <remove-project name="AICP/packages_apps_AicpExtras"/>
   <project path="packages/apps/AicpExtras" name="mordiford/packages_apps_AicpExtras" revision="n7.1" />
 
   <remove-project name="AICP/packages_apps_OmniSwitch"/>
