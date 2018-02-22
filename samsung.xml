@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-15.1" />
+
+  <!-- gts28vewifi -->
+  <project name="mordiford/device_samsung_gts28vewifi" path="device/samsung/gts28vewifi" remote="github" revision="o8.1" />
+  <project name="gts210vewifi-dev/android_device_samsung_msm8976-common" path="device/samsung/msm8976-common" revision="lineage-15.1" />
+  <project name="gts210vewifi-dev/android_kernel_samsung_msm8976" path="kernel/samsung/msm8976" remote="github" revision="lineage-15.1" />
+</manifest>
+
