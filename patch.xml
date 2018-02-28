@@ -9,10 +9,4 @@
 
   <remove-project name="AICP/vendor_aicp"/>
   <project name="mordiford/vendor_aicp" path="vendor/aicp" remote="aicp" />
-  
-  <!-- audio-caf revert for gts28vewifi -->
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" revision="staging/lineage-15.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" revision="lineage-15.1-caf-8996" />
 </manifest>
