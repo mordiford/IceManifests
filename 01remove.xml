@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- remove Lineage repos -->
-  <remove-project name="LineageOS/android_packages_apps_Calendar" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
   <remove-project name="LineageOS/android_packages_apps_TV" />
