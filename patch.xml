@@ -7,6 +7,9 @@
   <remove-project name="AICP/packages_apps_AicpExtras"/>
   <project name="mordiford/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="aicp" />
 
+  <remove-project name="AICP/packages_apps_DUI" />
+  <project name="mordiford/packages_apps_DUI" path="packages/apps/DUI" remote="aicp" />
+
   <remove-project name="AICP/vendor_aicp"/>
   <project name="mordiford/vendor_aicp" path="vendor/aicp" remote="aicp" />
 </manifest>
