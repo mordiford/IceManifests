@@ -3,6 +3,9 @@
   <!-- mordiford-ify patch -->
   <remove-project name="AICP/frameworks_base" />
   <project name="mordiford/frameworks_base" path="frameworks/base" remote="aicp" />
+  
+  <remove-project name="AICP/lineage-sdk" />
+  <project name="mordiford/lineage-sdk" path="lineage-sdk" remote="aicp" />
 
   <remove-project name="AICP/packages_apps_AicpExtras"/>
   <project name="mordiford/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="aicp" />
