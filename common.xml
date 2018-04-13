@@ -14,4 +14,5 @@
 
   <!-- additional -->
   <project name="omnirom/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" revision="android-8.1" />
+  <project name="crdroidandroid/android_prebuilts_snapdragon-llvm_toolchains_llvm-Snapdragon-LLVM-for-Android-4.0" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_4.0" revision="8.1" />
 </manifest>
