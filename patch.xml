@@ -15,4 +15,8 @@
 
   <remove-project name="AICP/vendor_aicp"/>
   <project name="mordiford/vendor_aicp" path="vendor/aicp" remote="aicp" />
+
+  <!-- clang 7.0.1 -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project name="mordiford/prebuilts_clang" path="prebuilts/clang/host/linux-x86" clone-depth="1" remote="aicp" />
 </manifest>
