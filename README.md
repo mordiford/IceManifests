@@ -2,14 +2,14 @@
 
 ## About
 
-- `local_manifests` for mordiford-ify AICP.
+- `local_manifests` for AICP-mordiford.
 - ただのリンク集です。
 - `vendor_aicp` と `packages_apps_AicpExtras` には独自の変更が少し入っています
     - それ以外の `patch.xml` の中身は翻訳が進んでいたりします
 
-## AICP info
+## Info
 
-- mordiford-AICP の概要とダウンロード: https://wiki.maud.io/aicp/oreo
+- AICP-mordiford の概要とダウンロード: https://wiki.maud.io/aicp/oreo
 
 ## License
 
@@ -33,5 +33,6 @@
 
 ## Author
 
-- [@lindwurm](https://github.com/lindwurm)
-- [@hota@mstdn.maud.io](https://mstdn.maud.io/@hota)
+- hota (lindwurm)
+    - [@lindwurm](https://github.com/lindwurm)
+    - [@hota@mstdn.maud.io](https://mstdn.maud.io/@hota)
