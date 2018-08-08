@@ -8,7 +8,7 @@
   <project name="mordiford/lineage-sdk" path="lineage-sdk" remote="aicp" />
 
   <remove-project name="AICP/packages_apps_AicpExtras"/>
-  <project name="mordiford/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="aicp" />
+  <project name="mordiford/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="gitlab" revision="o8.1" />
 
   <remove-project name="AICP/packages_apps_DUI" />
   <project name="mordiford/packages_apps_DUI" path="packages/apps/DUI" remote="aicp" />
