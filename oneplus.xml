@@ -12,4 +12,5 @@
   <project name="mordiford/device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="o8.1" />
   <project name="mordiford/device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="o8.1" />
   <project name="mordiford/sora-op5-kernel" path="kernel/oneplus/msm8998" remote="github" revision="sora-v1-dev" />
+  <project name="Singularity-Kernel/Singularity" path="kernel/oneplus/Singularity" remote="github" revision="eas" />
 </manifest>
