@@ -10,13 +10,13 @@
   <remove-project name="AICP/packages_apps_AicpExtras"/>
   <project name="mordiford/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="aicp" />
 
-  <remove-project name="AICP/packages_apps_DUI" />
-  <project name="mordiford/packages_apps_DUI" path="packages/apps/DUI" remote="aicp" />
+  <remove-project name="AICP/packages_apps_Settings" />
+  <project name="mordiford/packages_apps_Settings" path="packages/apps/Settings" remote="aicp" />
 
   <remove-project name="AICP/vendor_aicp"/>
   <project name="mordiford/vendor_aicp" path="vendor/aicp" remote="aicp" />
 
-  <!-- clang 7.0.1 -->
+  <!-- clang 7.0.2 -->
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <project name="mordiford/prebuilts_clang" path="prebuilts/clang/host/linux-x86" clone-depth="1" remote="aicp" />
 </manifest>
