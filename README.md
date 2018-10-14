@@ -11,6 +11,12 @@
 
 - AICP-mordiford の概要とダウンロード: https://wiki.maud.io/aicp/oreo
 
+## Notice
+
+- 無保証
+- Force-push多め
+- 本家とは無関係なプロジェクトなのでこっち起因のバグ報告を向こうに投げない
+
 ## License
 
 - IceManifests is licensed under [WTFPL](http://www.wtfpl.net/).
