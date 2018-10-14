@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- gemini/capricorn (msm8996) -->
+  <project name="mordiford/device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="o8.1" />
+  <project name="mordiford/device_xiaomi_capricorn" path="device/xiaomi/capricorn" remote="github" revision="o8.1" />
+  <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="lineage-15.1" />
+</manifest>
+
