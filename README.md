@@ -1,5 +1,13 @@
 # IceManifests
 
+## andoroid-8.1.0_r50 note
+
+AOSPとかのsyncはmergeまで以下を使用。
+
+```
+repo init -u https://github.com/mordiford/platform_manifest.git -b o8.1_r50
+```
+
 ## About
 
 - `local_manifests` for AICP-mordiford.
