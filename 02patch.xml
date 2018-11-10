@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- mordiford-ify patch -->
+  <!-- 8.1.0_r50 -->
+  <remote  name="patch"
+           fetch="https://github.com/"
+           revision="refs/heads/o8.1_r50" />
+
+  <remove-project name="AICP/build" />
+  <project path="build/make" name="mordiford/build" groups="pdk" remote="patch" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="AICP/frameworks_av" />
+  <project name="mordiford/frameworks_av" path="frameworks/av" remote="patch" />
+
   <remove-project name="AICP/frameworks_base" />
-  <project name="mordiford/frameworks_base" path="frameworks/base" remote="aicp" />
-  
+  <project name="mordiford/frameworks_base" path="frameworks/base" remote="patch" />
+
+  <remove-project name="LineageOS/android_system_bt" />
+  <project name="repopick/android_system_bt" path="system/bt" remote="patch" />
+
+  <remove-project name="AICP/packages_apps_Settings" />
+  <project name="mordiford/packages_apps_Settings" path="packages/apps/Settings" remote="patch" />
+
+  <!-- mordiford-ify patch -->  
   <remove-project name="AICP/lineage-sdk" />
   <project name="mordiford/lineage-sdk" path="lineage-sdk" remote="aicp" />
 
   <remove-project name="AICP/packages_apps_AicpExtras"/>
   <project name="mordiford/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="aicp" />
-
-  <remove-project name="AICP/packages_apps_Settings" />
-  <project name="mordiford/packages_apps_Settings" path="packages/apps/Settings" remote="aicp" />
 
   <remove-project name="AICP/vendor_aicp"/>
   <project name="mordiford/vendor_aicp" path="vendor/aicp" remote="aicp" />
