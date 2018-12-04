@@ -5,5 +5,9 @@
   <project name="mordiford/device_xiaomi_capricorn" path="device/xiaomi/capricorn" remote="github" revision="o8.1" />
   <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="lineage-15.1" />
+  
+  <!-- clover -->
+  <project name="mordiford/device_xiaomi_clover" path="device/xiaomi/clover" remote="github" revision="o8.1" />
+  <project name="GuaiYiHu/android_kernel_xiaomi_clover" path="kernel/xiaomi/clover" remote="github" revision="mko-mr1" />
 </manifest>
 
