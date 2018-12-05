@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote  name="patch"
+           fetch="https://github.com/"
+           revision="refs/heads/o8.1_r52" />
+
+  <remove-project name="AICP/build" />
+  <project path="build/make" name="mordiford/build" groups="pdk" remote="patch" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="AICP/frameworks_av" />
+  <project name="mordiford/frameworks_av" path="frameworks/av" remote="patch" />
+
+  <remove-project name="AICP/frameworks_base" />
+  <project name="mordiford/frameworks_base" path="frameworks/base" remote="patch" />
+
+  <remove-project name="AICP/frameworks_native" />
+  <project name="mordiford/frameworks_native" path="frameworks/native" remote="patch" />
+
+  <remove-project name="LineageOS/android_external_f2fs-tools" />
+  <project name="haggertk/android_external_f2fs-tools" path="external/f2fs-tools" revision="lineage-15.1_merge-android-8.1.0_r52" />
+
+  <remove-project name="LineageOS/android_system_bt" />
+  <project name="haggertk/android_system_bt" path="system/bt" revision="lineage-15.1_merge-android-8.1.0_r52" />
+
+  <remove-project name="LineageOS/android_system_nfc" />
+  <project name="haggertk/android_system_nfc" path="system/nfc" revision="lineage-15.1_merge-android-8.1.0_r52" />
+
+  <remove-project name="LineageOS/android_system_vold" />
+  <project name="haggertk/android_system_vold" path="system/vold" revision="lineage-15.1_merge-android-8.1.0_r52" />
+ 
   <!-- mordiford-ify patch -->
+<!--
   <remove-project name="AICP/frameworks_base" />
   <project name="mordiford/frameworks_base" path="frameworks/base" remote="aicp" />
-  
+-->
+
   <remove-project name="AICP/lineage-sdk" />
   <project name="mordiford/lineage-sdk" path="lineage-sdk" remote="aicp" />
 
