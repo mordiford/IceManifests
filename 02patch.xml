@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Flokify repositories -->
+
+  <remove-project name="AICP/build" />
+  <project path="build/make" name="mordiford/build" groups="pdk" remote="aicp" revision="p9.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="AICP/frameworks_base" />
+  <project name="mordiford/frameworks_base" path="frameworks/base" remote="aicp" revision="p9.0" />
+
+  <remove-project name="AICP/packages_apps_AicpExtras"/>
+  <project name="mordiford/packages_apps_AicpExtras" path="packages/apps/AicpExtras" remote="aicp" revision="p9.0" />
+
+  <remove-project name="AICP/packages_apps_Settings" />
+  <project name="mordiford/packages_apps_Settings" path="packages/apps/Settings" remote="aicp" revision="p9.0" />
+
+  <remove-project name="AICP/vendor_aicp"/>
+  <project name="mordiford/vendor_aicp" path="vendor/aicp" remote="aicp" revision="p9.0" />
+
+</manifest>
