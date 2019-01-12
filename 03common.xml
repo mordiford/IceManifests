@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- common -->
+  <project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="aicp" revision="lineage-16.0" />
+  <project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="aicp" revision="lineage-16.0" />
+  <project name="LineageOS/android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="aicp" revision="lineage-16.0" />
+  <project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="aicp" revision="lineage-16.0" />
+  <project name="LineageOS/android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/halimpl" remote="aicp" revision="lineage-16.0" />
+  <project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/hidlimpl" remote="aicp" revision="lineage-16.0" />
+
+  <!-- additional -->
+  <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="omni" />
+
+</manifest>
